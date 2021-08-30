@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        font-size: 100%;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: sans-serif;
+      }
+
+      *,
+      *::after,
+      *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+      }
+
+      .app {
+        padding: 50px 0;
+      }
+
+      .wrapper {
+        max-width: 1200px;
+        margin: 0 30px;
+      }
+
+      .title {
+        margin-bottom: 30px;
+        font-size: 2rem;
+      }
+
+      .project__title {
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+      }
+
+      .project__links {
+        margin-left: 20px;
+      }
+
+      .project__link {
+        font-size: 1.2rem;
+        margin: 10px;
+      }
+
+      @media screen and (min-width: 1260px) {
+        .wrapper {
+          margin: 0 auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <div class="wrapper">
+        <h1 class="title">Basic React Projects</h1>
+        <div class="project-list">
+          <div class="project">
+            <h3 class="project__title">1. Counter</h3>
+            <div class="project__links">
+              <a class="project__link" href="./counter/dist/index.html">Demo</a>
+              <a class="project__link" href="./counter/dist/index.html">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
